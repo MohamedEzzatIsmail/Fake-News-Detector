@@ -22,11 +22,6 @@ A Python-based machine learning project to classify news articles as **REAL** or
 
 fake-news-detector/ │ ├── fake_news_detector.py # Main code ├── news.csv # Dataset (Kaggle) ├── model.joblib # Saved model + vectorizer └── README.md # Project documentation
 
-markdown
-Copy
-Edit
-
----
 
 ## 📊 Dataset
 
@@ -65,24 +60,18 @@ Edit
 
 Install dependencies:
 
-```bash
+```
 pip install pandas scikit-learn joblib nltk
 Download stopwords:
 
-python
-Copy
-Edit
+
 import nltk
 nltk.download('stopwords')
 ▶️ Run the Project
-bash
-Copy
-Edit
+
 python fake_news_detector.py
 🧪 Sample Predictions
-bash
-Copy
-Edit
+
 🧾 Enter news article text (or type 'exit'): Bill Gates Creates Microchip Vaccine to Track People
 Result: 🚨 FAKE
 
